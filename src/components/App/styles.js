@@ -34,7 +34,7 @@ export const Container = styled.div`
     letter-spacing: 11.5px;
 
     ${onMobile} {
-      font-size: 2em;
+      font-size: 2.72em;
       letter-spacing: 6px;
     }
   }
