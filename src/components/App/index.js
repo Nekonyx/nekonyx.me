@@ -1,30 +1,23 @@
+/**
+ * Copyright (c) Leonard "Nekonyx" Timofeev. All rights reserved.
+ * Licensed under the MIT License. See LICENSE for license information.
+ */
+
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from 'react-router-dom';
 
-import Home from '../Home';
-import Footer from '../Footer';
+import { Wrapper, Container } from './styles';
 
-class App extends React.Component {
+export class AppComponent extends React.Component {
   render() {
     return (
-      <Router>
-        <div className="flex">
-          <div className="root animated">
-            <div className="content animated fadeIn">
-              <Switch>
-                <Route path={'/'} exact component={Home} />
-              </Switch>
-            </div>
-            <Footer />
-          </div>
-        </div>
-      </Router>
+      <Wrapper>
+        <Container>
+          <h1>Nekonyx</h1>
+          <h2>Someone, who lives somewhere</h2>
+        </Container>
+      </Wrapper>
     );
   }
 }
 
-export default App;
+export default AppComponent;
