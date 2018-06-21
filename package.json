@@ -2,6 +2,17 @@
   "name": "nekonyx.me",
   "version": "0.7.4",
   "private": true,
+  "author": {
+    "email": "inbox@nekonyx.me",
+    "name": "Leonard Timofeev",
+    "url": "https://nekonyx.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nekonyx/nekonyx.me"
+  },
+  "license": "MIT",
+  "homepage": "https://nekonyx.me",
   "dependencies": {
     "modern-normalize": "^0.5.0",
     "react": "^16.4.1",
