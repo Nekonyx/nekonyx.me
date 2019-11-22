@@ -1,23 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
-@keyframes fadeInDown {
-  from { transform: translateY(-10px); opacity: 0 }
-  to { transform: none; opacity: 1; }
-}
-
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
+  margin: 0;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
-  background-image: url(../images/background.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: fixed #dcdcdc url(../images/background.jpg) no-repeat center;
+  font-family: 'Montserrat', 'Segoe UI', sans-serif;
 }
 
 #root {
-  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, .8));
-  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

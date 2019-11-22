@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  }
+}

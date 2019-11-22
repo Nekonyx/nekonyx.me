@@ -1,0 +1,42 @@
+.wrapper {
+  padding: 3em 5em 2.5em 5em;
+  background: rgba(255, 255, 255, 0.75);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.wrapper .name {
+  font-size: 2.2em;
+  letter-spacing: 10px;
+  font-weight: 500;
+}
+
+/* .wrapper .role {
+  margin-top: 8px;
+  font-size: 11.6px;
+  letter-spacing: 1px;
+}
+
+.wrapper .role, */
+.wrapper .name {
+  user-select: none;
+}
+
+.wrapper .links {
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-top: 2em;
+}
+
+.wrapper .links a {
+  color: #000;
+  text-decoration: none;
+}
+
+.wrapper .links a::after {
+  content: ' · ';
+}
+
+.wrapper .links a:last-child::after {
+  content: none;
+}
