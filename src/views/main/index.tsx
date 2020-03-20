@@ -6,7 +6,7 @@ export class MainView extends Component {
   public render() {
     return (
       <div class="wrapper">
-        <div class="name">я единственный неко!</div>
+        <div class="name">Nekonyx</div>
         {/* <div class="role">someone who lives somewhere</div> */}
         <div class="links">
           <a href="tg://resolve?domain=nekonyx">@nekonyx</a>
