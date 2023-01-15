@@ -1,4 +1,2 @@
-node_modules
-*.log
-build
-dist
+/node_modules/
+/.next/

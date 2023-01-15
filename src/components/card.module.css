@@ -1,0 +1,12 @@
+.card {
+  --card-bg-color: rgb(255, 255, 255, 0.75);
+
+  background: var(--card-bg-color);
+  padding: 48px 80px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    --card-bg-color: rgba(24, 26, 27, 0.75);
+  }
+}
