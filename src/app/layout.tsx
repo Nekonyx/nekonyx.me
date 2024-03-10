@@ -13,12 +13,10 @@ const sofiaSans = Sofia_Sans({
   weight: '400'
 })
 
-export function RootLayout({ children }: PropsWithChildren) {
+export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en" className={sofiaSans.className}>
       <body>{children}</body>
     </html>
   )
 }
-
-export default RootLayout

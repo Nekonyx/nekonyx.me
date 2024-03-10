@@ -3,7 +3,7 @@ import Link from '@/components/link'
 
 import classes from './page.module.css'
 
-export function Page() {
+export default function Page() {
   return (
     <main className={classes.container}>
       <Card>
@@ -17,5 +17,3 @@ export function Page() {
     </main>
   )
 }
-
-export default Page
